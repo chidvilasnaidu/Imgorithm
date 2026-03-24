@@ -33,7 +33,7 @@
 
 ---
 
-## 🚀 Features
+## Features
 
 | Category | Tools |
 |---|---|
@@ -47,7 +47,12 @@
 | **Download** | Export processed image as PNG |
 
 ---
-
+## Copyright Notice
+© 2026 IMGorithm. Built for educational purposes only.
+This project was created to learn and demonstrate image processing using OpenCV, Streamlit, NumPy, and Pillow — all credit to their respective owners and maintainers.
+No images uploaded through this app are stored or shared. Users are responsible for ensuring they have rights to any image they process.
+This software is provided "as is" without warranty of any kind.
+If you have any IP concerns, please open an issue on the repository
 ## 🖥️ Demo
 
 ```
@@ -117,7 +122,7 @@ Pillow>=10.0.0
 ```
 imgorithm/
 │
-├── imgorithm_app.py      # Main application
+├── main.py      # Main application
 ├── requirements.txt      # Python dependencies
 ├── README.md             # You are here
 └── assets/               # (optional) Screenshots, demo images
@@ -158,14 +163,6 @@ Uses an elliptical Gaussian mask to simulate camera bokeh — the subject (cente
 
 ---
 
-## ⚠️ Limitations
-
-- Maximum upload size: **4MB**
-- Processes images in-memory (no server-side storage)
-- Portrait blur uses a fixed elliptical mask — not AI face detection
-- Warm filter applies a fixed +30 red channel boost
-
----
 
 ## 🔮 Roadmap
 
@@ -194,9 +191,7 @@ Please keep PRs focused — one feature per PR. Bug fixes are always welcome.
 
 ---
 
-## 📄 License
 
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 ---
 
