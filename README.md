@@ -155,7 +155,7 @@ Uses an elliptical Gaussian mask to simulate camera bokeh — the subject (cente
 ## 🎨 UI Design
 
 - **Dark theme** with radial gradient background (`#020b12`)
-- **Accent color**: `#00ffc3` (cyan-green) + `#00b4ff` (sky blue)
+- **Accent color**: `#00ffc3` (cyangreen) + `#00b4ff` (sky blue)
 - **Sticky left panel** — preview stays fixed while tools scroll
 - **Custom scrollbar** styled to match the theme
 - **Glass-morphism cards** with backdrop blur
