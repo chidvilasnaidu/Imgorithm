@@ -47,7 +47,7 @@ st.markdown("""
     margin-top: 8px;
 }
 
-/* Cards */
+
 .glass-card {
     background: rgba(255,255,255,0.04);
     border-radius: 20px;
